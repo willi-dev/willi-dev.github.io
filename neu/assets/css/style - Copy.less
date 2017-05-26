@@ -1,0 +1,82 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
+@minWidth: 640px;
+@maxWidth: 1360px;
+
+a{color: black !important; text-decoration: none !important; padding: 5px;}
+#container {
+  width: 100%; min-width: @minWidth; max-width: @maxWidth; 
+  box-sizing: border-box;
+  &:after {clear: both}
+}
+
+.border(@borderWidth:1px) {border: @borderWidth solid black}
+.border1{.border()}
+.center{text-align:center}
+.col{
+  width: 100%; float: left; &:after {clear: both}
+  &.s{
+    &1{width:8.33%} &2{width:16.66%} &3{width:25%} &4{width:33.33%}
+    &5{width:41.66%} &6{width:50%} &7{width:58.33%} &8{width:66.66%}
+    &9{width:75%} &10{width:83.33%} &11{width:91.66%} &12{width:100%}
+  }
+  @media only screen and (min-width:601px){ &.m{.s} }
+  @media only screen and (min-width:993px){ &.l{.s} }
+}
+.color{
+  &-bg1 {background-color: rgb(2,62,52) !important}
+  &-bg2 {background-color: rgb(232,240,242) !important}
+  &-bg3 {background-color: rgb(51,51,51) !important}
+  &-hv-none{ &:hover{box-shadow:none!important;background-color:transparent!important}}
+  &-hv1 { li{ a{ &:hover{background-color: rgb(1,43,36) !important}}}}
+  &-txt1{ li{ a{color: white !important}}}
+}
+.image{max-width:100%;height:auto}
+.padding{
+  &-10{padding: 10px;}
+  &-all{ padding: 4px; div,img{padding: 4px} }
+  &-content{padding: 10px 10%!important}
+  &-content-0{padding: 0 10%!important}
+  &-rl{padding: 0px 10px}
+  &-rl-2{padding: 0px 2px}
+}
+.relative{
+  position: relative;
+  &.in{ position: absolute; top: 20%; left: 50%; 
+    transform:translate(-50%,-50%); width: 60%; }
+  &.in2{ position: absolute; top: 55%; width: 25%; }
+  &.in3{ position: absolute; top: 75%; width: 25%; }
+  &.in4{ position: absolute; top: 50%; right: 11%; 
+         transform:translate(0,-50%); width: 17%; }
+  &.in5{ position: absolute; top: 50%; right: 30%;
+         transform:translate(0,-50%); width: 16%; }
+  &.in6{ position: absolute; top: 50%; left: 11%;
+         transform:translate(0,-50%); height: 45%; }
+  &.in7{ position: absolute; top: 50%; left: 28%;
+         transform:translate(0,-50%); height: 45%; }
+  &.in8{ position: absolute; top: 50%; left: 38%;
+         transform:translate(0,-50%); height: 45%; }
+}
+
+.l-navbar{
+  list-style-type:none;margin:0;padding:0;overflow:hidden;
+  a{text-decoration:none!important}
+  li{float:left}
+  li a{display:block;padding:8px 16px}
+}
+ 
+ 
+ 
+ 
+
+
+.search{
+  &-out{background-color: white;}
+  &-in{
+    width: 90%;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: white;}
+}
