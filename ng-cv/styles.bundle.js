@@ -1,5 +1,33 @@
 webpackJsonp(["styles"],{
 
+/***/ "../../../../../src/assets/fonts/348C6F_0_0.eot":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "348C6F_0_0.fa546c559d84d0151e3f.eot";
+
+/***/ }),
+
+/***/ "../../../../../src/assets/fonts/348C6F_0_0.ttf":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "348C6F_0_0.44ff42e49f6374642a7a.ttf";
+
+/***/ }),
+
+/***/ "../../../../../src/assets/fonts/348C6F_0_0.woff":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "348C6F_0_0.ac3a8c0bbd7634416726.woff";
+
+/***/ }),
+
+/***/ "../../../../../src/assets/fonts/348C6F_0_0.woff2":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "348C6F_0_0.95825fc6458a4f757f5c.woff2";
+
+/***/ }),
+
 /***/ "../../../../../src/styles.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -47,10 +75,11 @@ exports.push([module.i, "/*!\n * Bootstrap v4.0.0-beta.2 (https://getbootstrap.c
 
 exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);", ""]);
 exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../bootstrap/dist/css/bootstrap.min.css"), "");
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n  .no-gutters > .col,\n  .no-gutters > [class*=\"col-\"] {\n    padding-right: 0;\n    padding-left: 0; }\n\nbutton, a {\n  cursor: pointer; }\n\n.dashboard-title {\n  padding-left: 70px; }\n\n.open-menu {\n  font-size: 40px;\n  cursor: pointer;\n  position: absolute;\n  top: 25px;\n  left: 60px;\n  display: inline-block; }\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n@font-face {\n  font-family: 'BebasNeue';\n  src: url(" + __webpack_require__("../../../../../src/assets/fonts/348C6F_0_0.eot") + ");\n  src: url(" + __webpack_require__("../../../../../src/assets/fonts/348C6F_0_0.eot") + "?#iefix) format(\"embedded-opentype\"), url(" + __webpack_require__("../../../../../src/assets/fonts/348C6F_0_0.woff2") + ") format(\"woff2\"), url(" + __webpack_require__("../../../../../src/assets/fonts/348C6F_0_0.woff") + ") format(\"woff\"), url(" + __webpack_require__("../../../../../src/assets/fonts/348C6F_0_0.ttf") + ") format(\"truetype\"); }\n\n/* DASHBOARD STYLE */\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n  .no-gutters > .col,\n  .no-gutters > [class*=\"col-\"] {\n    padding-right: 0;\n    padding-left: 0; }\n\nbutton, a {\n  cursor: pointer; }\n\n.dashboard-title {\n  padding-left: 70px; }\n\n.open-menu {\n  font-size: 40px;\n  cursor: pointer;\n  position: absolute;\n  top: 25px;\n  left: 60px;\n  display: inline-block; }\n\n/* END DASHBOARD STYLE */\n/* CV VIEW STYLE */\n.cv-container__loader {\n  position: relative;\n  height: 100px;\n  width: 100%; }\n\n.v-spinner {\n  width: 20%;\n  top: 50%;\n  left: 50%;\n  text-align: center;\n  position: absolute;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%); }\n\n.cv {\n  margin-top: 20px;\n  margin-bottom: 20px; }\n  .cv .cv-block-text {\n    font-size: 1.6rem; }\n  .cv-section__block--left .cv-section__block-title {\n    text-align: right; }\n    @media screen and (max-width: 767px) {\n      .cv-section__block--left .cv-section__block-title {\n        text-align: left; } }\n  .cv-section__block--right .cv-section__block-title {\n    text-align: left; }\n  .cv-section__block-title {\n    font-family: \"BebasNeue\", sans-serif;\n    color: #8D8D8E;\n    border-bottom: 1px dashed #AEAEAE;\n    padding-bottom: 1rem; }\n", ""]);
 
 // exports
 

@@ -96,30 +96,46 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_education_service__ = __webpack_require__("../../../../../src/app/providers/education.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_publication_service__ = __webpack_require__("../../../../../src/app/providers/publication.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_training_service__ = __webpack_require__("../../../../../src/app/providers/training.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_message_service__ = __webpack_require__("../../../../../src/app/providers/message.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_angularfire2__ = __webpack_require__("../../../../angularfire2/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_angularfire2_database__ = __webpack_require__("../../../../angularfire2/database/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_angularfire2_database_deprecated__ = __webpack_require__("../../../../angularfire2/database-deprecated/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_angularfire2_auth__ = __webpack_require__("../../../../angularfire2/auth/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_header_header_component__ = __webpack_require__("../../../../../src/app/components/header/header.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_skill_service__ = __webpack_require__("../../../../../src/app/providers/skill.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_message_service__ = __webpack_require__("../../../../../src/app/providers/message.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_angularfire2__ = __webpack_require__("../../../../angularfire2/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_angularfire2_database__ = __webpack_require__("../../../../angularfire2/database/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_angularfire2_database_deprecated__ = __webpack_require__("../../../../angularfire2/database-deprecated/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_angularfire2_auth__ = __webpack_require__("../../../../angularfire2/auth/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_dashboard_dashboard_component__ = __webpack_require__("../../../../../src/app/components/dashboard/dashboard.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_login_login_component__ = __webpack_require__("../../../../../src/app/components/login/login.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_cv_cv_component__ = __webpack_require__("../../../../../src/app/components/cv/cv.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_dashboard_projects_projects_component__ = __webpack_require__("../../../../../src/app/components/dashboard/projects/projects.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_dashboard_work_work_component__ = __webpack_require__("../../../../../src/app/components/dashboard/work/work.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_dashboard_training_training_component__ = __webpack_require__("../../../../../src/app/components/dashboard/training/training.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_dashboard_educations_educations_component__ = __webpack_require__("../../../../../src/app/components/dashboard/educations/educations.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_dashboard_publication_publication_component__ = __webpack_require__("../../../../../src/app/components/dashboard/publication/publication.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_dashboard_skill_skill_component__ = __webpack_require__("../../../../../src/app/components/dashboard/skill/skill.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_dashboard_personal_detail_personal_detail_component__ = __webpack_require__("../../../../../src/app/components/dashboard/personal-detail/personal-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_dashboard_main_profile_main_profile_component__ = __webpack_require__("../../../../../src/app/components/dashboard/main-profile/main-profile.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_dashboard_projects_projects_component__ = __webpack_require__("../../../../../src/app/components/dashboard/projects/projects.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_dashboard_work_work_component__ = __webpack_require__("../../../../../src/app/components/dashboard/work/work.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_dashboard_training_training_component__ = __webpack_require__("../../../../../src/app/components/dashboard/training/training.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_dashboard_educations_educations_component__ = __webpack_require__("../../../../../src/app/components/dashboard/educations/educations.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_dashboard_publication_publication_component__ = __webpack_require__("../../../../../src/app/components/dashboard/publication/publication.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_dashboard_skill_skill_component__ = __webpack_require__("../../../../../src/app/components/dashboard/skill/skill.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_dashboard_personal_detail_personal_detail_component__ = __webpack_require__("../../../../../src/app/components/dashboard/personal-detail/personal-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_dashboard_main_profile_main_profile_component__ = __webpack_require__("../../../../../src/app/components/dashboard/main-profile/main-profile.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_cv_cv_component__ = __webpack_require__("../../../../../src/app/components/cv/cv.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_cv_cv_skill_cv_skill_component__ = __webpack_require__("../../../../../src/app/components/cv/cv-skill/cv-skill.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_cv_cv_profile_cv_profile_component__ = __webpack_require__("../../../../../src/app/components/cv/cv-profile/cv-profile.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_cv_cv_detail_cv_detail_component__ = __webpack_require__("../../../../../src/app/components/cv/cv-detail/cv-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_cv_cv_training_cv_training_component__ = __webpack_require__("../../../../../src/app/components/cv/cv-training/cv-training.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_cv_cv_education_cv_education_component__ = __webpack_require__("../../../../../src/app/components/cv/cv-education/cv-education.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_cv_cv_publication_cv_publication_component__ = __webpack_require__("../../../../../src/app/components/cv/cv-publication/cv-publication.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_cv_cv_work_cv_work_component__ = __webpack_require__("../../../../../src/app/components/cv/cv-work/cv-work.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_cv_cv_project_cv_project_component__ = __webpack_require__("../../../../../src/app/components/cv/cv-project/cv-project.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
+
+
+
+
 
 
 
@@ -161,7 +177,7 @@ var firebaseConfig = {
     messagingSenderId: '94894335534',
 };
 var routes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_23__components_cv_cv_component__["a" /* CvComponent */] },
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_31__components_cv_cv_component__["a" /* CvComponent */] },
     { path: 'login', component: __WEBPACK_IMPORTED_MODULE_22__components_login_login_component__["a" /* LoginComponent */] },
     { path: 'dashboard',
         component: __WEBPACK_IMPORTED_MODULE_21__components_dashboard_dashboard_component__["a" /* DashboardComponent */],
@@ -174,35 +190,35 @@ var routes = [
             },
             {
                 path: 'main-profile',
-                component: __WEBPACK_IMPORTED_MODULE_31__components_dashboard_main_profile_main_profile_component__["a" /* MainProfileComponent */]
+                component: __WEBPACK_IMPORTED_MODULE_30__components_dashboard_main_profile_main_profile_component__["a" /* MainProfileComponent */]
             },
             {
                 path: 'personal-detail',
-                component: __WEBPACK_IMPORTED_MODULE_30__components_dashboard_personal_detail_personal_detail_component__["a" /* PersonalDetailComponent */]
+                component: __WEBPACK_IMPORTED_MODULE_29__components_dashboard_personal_detail_personal_detail_component__["a" /* PersonalDetailComponent */]
             },
             {
                 path: 'work',
-                component: __WEBPACK_IMPORTED_MODULE_25__components_dashboard_work_work_component__["a" /* WorkComponent */]
+                component: __WEBPACK_IMPORTED_MODULE_24__components_dashboard_work_work_component__["a" /* WorkComponent */]
             },
             {
                 path: 'projects',
-                component: __WEBPACK_IMPORTED_MODULE_24__components_dashboard_projects_projects_component__["a" /* ProjectsComponent */]
+                component: __WEBPACK_IMPORTED_MODULE_23__components_dashboard_projects_projects_component__["a" /* ProjectsComponent */]
             },
             {
                 path: 'educations',
-                component: __WEBPACK_IMPORTED_MODULE_27__components_dashboard_educations_educations_component__["a" /* EducationsComponent */]
+                component: __WEBPACK_IMPORTED_MODULE_26__components_dashboard_educations_educations_component__["a" /* EducationsComponent */]
             },
             {
                 path: 'skill',
-                component: __WEBPACK_IMPORTED_MODULE_29__components_dashboard_skill_skill_component__["a" /* SkillComponent */]
+                component: __WEBPACK_IMPORTED_MODULE_28__components_dashboard_skill_skill_component__["a" /* SkillComponent */]
             },
             {
                 path: 'training',
-                component: __WEBPACK_IMPORTED_MODULE_26__components_dashboard_training_training_component__["a" /* TrainingComponent */]
+                component: __WEBPACK_IMPORTED_MODULE_25__components_dashboard_training_training_component__["a" /* TrainingComponent */]
             },
             {
                 path: 'publication',
-                component: __WEBPACK_IMPORTED_MODULE_28__components_dashboard_publication_publication_component__["a" /* PublicationComponent */]
+                component: __WEBPACK_IMPORTED_MODULE_27__components_dashboard_publication_publication_component__["a" /* PublicationComponent */]
             }
         ]
     }
@@ -215,34 +231,41 @@ var AppModule = (function () {
 AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["M" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_19__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__components_header_header_component__["a" /* HeaderComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_21__components_dashboard_dashboard_component__["a" /* DashboardComponent */],
             __WEBPACK_IMPORTED_MODULE_22__components_login_login_component__["a" /* LoginComponent */],
-            __WEBPACK_IMPORTED_MODULE_23__components_cv_cv_component__["a" /* CvComponent */],
-            __WEBPACK_IMPORTED_MODULE_24__components_dashboard_projects_projects_component__["a" /* ProjectsComponent */],
-            __WEBPACK_IMPORTED_MODULE_25__components_dashboard_work_work_component__["a" /* WorkComponent */],
-            __WEBPACK_IMPORTED_MODULE_26__components_dashboard_training_training_component__["a" /* TrainingComponent */],
-            __WEBPACK_IMPORTED_MODULE_27__components_dashboard_educations_educations_component__["a" /* EducationsComponent */],
-            __WEBPACK_IMPORTED_MODULE_28__components_dashboard_publication_publication_component__["a" /* PublicationComponent */],
-            __WEBPACK_IMPORTED_MODULE_29__components_dashboard_skill_skill_component__["a" /* SkillComponent */],
-            __WEBPACK_IMPORTED_MODULE_30__components_dashboard_personal_detail_personal_detail_component__["a" /* PersonalDetailComponent */],
-            __WEBPACK_IMPORTED_MODULE_31__components_dashboard_main_profile_main_profile_component__["a" /* MainProfileComponent */]
+            __WEBPACK_IMPORTED_MODULE_31__components_cv_cv_component__["a" /* CvComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__components_dashboard_projects_projects_component__["a" /* ProjectsComponent */],
+            __WEBPACK_IMPORTED_MODULE_24__components_dashboard_work_work_component__["a" /* WorkComponent */],
+            __WEBPACK_IMPORTED_MODULE_25__components_dashboard_training_training_component__["a" /* TrainingComponent */],
+            __WEBPACK_IMPORTED_MODULE_26__components_dashboard_educations_educations_component__["a" /* EducationsComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__components_dashboard_publication_publication_component__["a" /* PublicationComponent */],
+            __WEBPACK_IMPORTED_MODULE_28__components_dashboard_skill_skill_component__["a" /* SkillComponent */],
+            __WEBPACK_IMPORTED_MODULE_29__components_dashboard_personal_detail_personal_detail_component__["a" /* PersonalDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_30__components_dashboard_main_profile_main_profile_component__["a" /* MainProfileComponent */],
+            __WEBPACK_IMPORTED_MODULE_32__components_cv_cv_skill_cv_skill_component__["a" /* CvSkillComponent */],
+            __WEBPACK_IMPORTED_MODULE_33__components_cv_cv_profile_cv_profile_component__["a" /* CvProfileComponent */],
+            __WEBPACK_IMPORTED_MODULE_34__components_cv_cv_detail_cv_detail_component__["a" /* CvDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_35__components_cv_cv_training_cv_training_component__["a" /* CvTrainingComponent */],
+            __WEBPACK_IMPORTED_MODULE_36__components_cv_cv_education_cv_education_component__["a" /* CvEducationComponent */],
+            __WEBPACK_IMPORTED_MODULE_37__components_cv_cv_publication_cv_publication_component__["a" /* CvPublicationComponent */],
+            __WEBPACK_IMPORTED_MODULE_38__components_cv_cv_work_cv_work_component__["a" /* CvWorkComponent */],
+            __WEBPACK_IMPORTED_MODULE_39__components_cv_cv_project_cv_project_component__["a" /* CvProjectComponent */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_15_angularfire2__["a" /* AngularFireModule */].initializeApp(firebaseConfig),
+            __WEBPACK_IMPORTED_MODULE_16_angularfire2__["a" /* AngularFireModule */].initializeApp(firebaseConfig),
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot(routes, { useHash: true }),
-            __WEBPACK_IMPORTED_MODULE_16_angularfire2_database__["a" /* AngularFireDatabaseModule */],
-            __WEBPACK_IMPORTED_MODULE_18_angularfire2_auth__["b" /* AngularFireAuthModule */],
+            __WEBPACK_IMPORTED_MODULE_17_angularfire2_database__["a" /* AngularFireDatabaseModule */],
+            __WEBPACK_IMPORTED_MODULE_19_angularfire2_auth__["b" /* AngularFireAuthModule */],
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_14__providers_message_service__["a" /* MessageService */],
+            __WEBPACK_IMPORTED_MODULE_15__providers_message_service__["a" /* MessageService */],
             __WEBPACK_IMPORTED_MODULE_5__providers_auth_service__["a" /* AuthService */],
             __WEBPACK_IMPORTED_MODULE_6__providers_auth_guard_service__["a" /* AuthGuard */],
-            __WEBPACK_IMPORTED_MODULE_17_angularfire2_database_deprecated__["a" /* AngularFireDatabase */],
+            __WEBPACK_IMPORTED_MODULE_18_angularfire2_database_deprecated__["a" /* AngularFireDatabase */],
             __WEBPACK_IMPORTED_MODULE_7__providers_mainprofile_service__["a" /* MainprofileService */],
             __WEBPACK_IMPORTED_MODULE_8__providers_personaldetail_service__["a" /* PersonaldetailService */],
             __WEBPACK_IMPORTED_MODULE_9__providers_work_service__["a" /* WorkService */],
@@ -250,8 +273,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_11__providers_education_service__["a" /* EducationService */],
             __WEBPACK_IMPORTED_MODULE_12__providers_publication_service__["a" /* PublicationService */],
             __WEBPACK_IMPORTED_MODULE_13__providers_training_service__["a" /* TrainingService */],
+            __WEBPACK_IMPORTED_MODULE_14__providers_skill_service__["a" /* SkillService */]
         ],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_19__app_component__["a" /* AppComponent */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_20__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -259,10 +283,498 @@ AppModule = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/components/cv/cv-detail/cv-detail.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"cv-section__block-inner cv-section__personal-detail\">\n\t<h3 class=\"cv-section__block-title\">Personal Detail</h3>\n\n\t<div class=\"list-item\">\n\t\t<div class=\"cv-block__wrapper cv-block-placedatebirth\">\n\t\t\t<h4 class=\"cv-block-placedatebirth cv-block-text\">Place, Date of Birth <span class=\"value\">05 april 1989</span></h4>\n\t\t</div>\n\t\t<div class=\"cv-block__wrapper cv-block__wrapper-gender\">\n          <h4 class=\"cv-block-gender cv-block-text\">Gender <span class=\"value\">{{person.gender}}</span></h4>\n        </div>\n        <div class=\"cv-block__wrapper cv-block__wrapper-language\">\n          <h4 class=\"cv-block-language cv-block-text\">Language <span class=\"value\">{{person.language}}</span></h4>\n        </div>\n        <div class=\"cv-block__wrapper cv-block__wrapper-religion\">\n          <h4 class=\"cv-block-religion cv-block-text\">Religion <span class=\"value\">{{person.religion}}</span></h4>\n        </div>\n\t</div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-detail/cv-detail.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-section__personal-detail {\n  text-align: right; }\n  @media screen and (max-width: 767px) {\n    .cv-section__personal-detail {\n      text-align: left; } }\n  .cv-section__personal-detail .cv-block__wrapper {\n    font-family: \"Raleway\", sans-serif;\n    color: #AEAEAE; }\n  .cv-section__personal-detail .cv-block-placedatebirth,\n  .cv-section__personal-detail .cv-block-gender,\n  .cv-section__personal-detail .cv-block-language,\n  .cv-section__personal-detail .cv-block-religion {\n    font-weight: 300;\n    line-height: .8; }\n    .cv-section__personal-detail .cv-block-placedatebirth .value,\n    .cv-section__personal-detail .cv-block-gender .value,\n    .cv-section__personal-detail .cv-block-language .value,\n    .cv-section__personal-detail .cv-block-religion .value {\n      font-weight: 700;\n      color: #333333; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-detail/cv-detail.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvDetailComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvDetailComponent = (function () {
+    function CvDetailComponent() {
+    }
+    CvDetailComponent.prototype.ngOnInit = function () {
+    };
+    return CvDetailComponent;
+}());
+CvDetailComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-cv-detail',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv-detail/cv-detail.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv-detail/cv-detail.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvDetailComponent);
+
+//# sourceMappingURL=cv-detail.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-education/cv-education.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"cv-section__block-inner cv-section__education\">\n<h3 class=\"cv-section__block-title\">Education</h3>\n  \n    <div class=\"list-item\">\n      <div class=\"cv-block__wrapper cv-block__wrapper-school\">\n        <h4 class=\"cv-block-school cv-block-text\">\n          {{edu.school}}\n        </h4>\n      </div>\n      <div class=\"cv-block__wrapper cv-block__wrapper-eduyear\">\n        <h4 class=\"cv-block-edu-year cv-block-text\">\n          {{edu.year}}    \n        </h4>\n      </div>\n      <div v-if=\" edu.department!='-' \"class=\"cv-block__wrapper cv-block__wrapper-department\">\n        <h4 class=\"cv-block-departement cv-block-text\">\n          {{edu.department}}\n        </h4>\n      </div>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-education/cv-education.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-section__education {\n  text-align: right; }\n  @media screen and (max-width: 767px) {\n    .cv-section__education {\n      text-align: left; } }\n  .cv-section__education .cv-block__wrapper {\n    font-family: \"Raleway\", sans-serif;\n    color: #000000; }\n  .cv-section__education .cv-block-school {\n    font-weight: 700; }\n  .cv-section__education .cv-block-edu-year,\n  .cv-section__education .cv-block-departement {\n    font-weight: 300;\n    line-height: .8; }\n  .cv-section__education .cv-block-edu-year {\n    color: #AEAEAE; }\n  .cv-section__education .cv-block-departement {\n    color: #000000; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-education/cv-education.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvEducationComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvEducationComponent = (function () {
+    function CvEducationComponent() {
+    }
+    CvEducationComponent.prototype.ngOnInit = function () {
+    };
+    return CvEducationComponent;
+}());
+CvEducationComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-cv-education',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv-education/cv-education.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv-education/cv-education.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvEducationComponent);
+
+//# sourceMappingURL=cv-education.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-profile/cv-profile.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"cv-section__block-inner cv-section__personal-main\">\n\t<div class=\"cv-section__personal-main-photo\">\n\t\t<img src=\"./assets/images/photo.jpg\" class=\"img-fluid\" alt=\"\">\n\t</div>\n\t<div class=\"cv-block__wrapper-name cv-block__wrapper\">\n\t\t<h1 class=\"cv-block-name\">Willi</h1>\n\t</div>\n\t<div class=\"cv-block__wrapper-position cv-block__wrapper\">\n\t\t<h4 class=\"cv-block-position\">web developer</h4>\n\t</div>\n\t<div class=\"cv-block__wrapper cv-block__wrapper-phone\">\n\t\t<h4 class=\"cv-block-phone\">+62 857 2030 8893</h4>\n\t</div>\n\t<div class=\"cv-block__wrapper cv-block__wrapper-address\">\n\t\t<h4 class=\"cv-block-address\">Kawista no. 3 Cigadung Bandung</h4>\n\t</div>\n\t<div class=\"cv-block__wrapper cv-block__wrapper-email\">\n\t\t<h4 class=\"cv-block-email\">willi.ilmukomputer@gmail.com</h4>\n\t</div>\n\t<div class=\"cv-block__wrapper cv-block__wrapper-linkedin\">\n\t\t<h4 class=\"cv-block-linkedin\">https://id.linkedin.com/in/willidev</h4>\n\t</div>\n\t<div class=\"cv-block__wrapper cv-block__wrapper-github\">\n\t\t<h4 class=\"cv-block-github\">https://github.com/willi-dev</h4>\n\t</div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-profile/cv-profile.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-section__personal-main-photo {\n  text-align: right;\n  margin-bottom: 1rem; }\n  @media screen and (max-width: 767px) {\n    .cv-section__personal-main-photo {\n      text-align: center; } }\n  .cv-section__personal-main-photo img {\n    width: 60%;\n    display: inline; }\n    @media screen and (max-width: 767px) {\n      .cv-section__personal-main-photo img {\n        width: 100%; } }\n\n.cv-section__personal-main {\n  text-align: right;\n  font-family: \"Raleway\", sans-serif; }\n  @media screen and (max-width: 767px) {\n    .cv-section__personal-main {\n      text-align: center; } }\n  .cv-section__personal-main .cv-block-name {\n    font-weight: 700;\n    font-size: 10rem;\n    line-height: .7;\n    margin-top: 0;\n    margin-bottom: 0; }\n  .cv-section__personal-main .cv-block-position {\n    font-weight: 300;\n    font-size: 6rem;\n    margin-top: 0;\n    margin-bottom: 0; }\n  .cv-section__personal-main .cv-block-phone,\n  .cv-section__personal-main .cv-block-address,\n  .cv-section__personal-main .cv-block-email,\n  .cv-section__personal-main .cv-block-linkedin,\n  .cv-section__personal-main .cv-block-github {\n    font-weight: 300;\n    font-size: 1.7rem;\n    margin-top: 0;\n    margin-bottom: 0; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-profile/cv-profile.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvProfileComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvProfileComponent = (function () {
+    function CvProfileComponent() {
+    }
+    CvProfileComponent.prototype.ngOnInit = function () {
+    };
+    return CvProfileComponent;
+}());
+CvProfileComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-cv-profile',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv-profile/cv-profile.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv-profile/cv-profile.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvProfileComponent);
+
+//# sourceMappingURL=cv-profile.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-project/cv-project.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  cv-project works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-project/cv-project.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-project/cv-project.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvProjectComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvProjectComponent = (function () {
+    function CvProjectComponent() {
+    }
+    CvProjectComponent.prototype.ngOnInit = function () {
+    };
+    return CvProjectComponent;
+}());
+CvProjectComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-cv-project',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv-project/cv-project.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv-project/cv-project.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvProjectComponent);
+
+//# sourceMappingURL=cv-project.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-publication/cv-publication.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"cv-section__block-inner cv-section__publication-research\">\n    <h3 class=\"cv-section__block-title\">Publication Research</h3>    \n    <div class=\"list-item\">\n      <div class=\"cv-block__wrapper cv-block__wrapper-publication-type\">\n        <h4 class=\"cv-block-publication-type cv-block-text\">\n          {{p.type}}\n        </h4>\n      </div>\n      <div class=\"cv-block__wrapper cv-block__wrapper-publication-title\">\n        <h4 class=\"cv-block-publication-title cv-block-text\">\n          {{p.title}}\n        </h4>\n      </div>\n      <div class=\"cv-block__wrapper cv-block__wrapper-publication-description\">\n        <h4 class=\"cv-block-publication-description cv-block-text\">\n          {{p.description}}\n        </h4>\n      </div>\n      <div class=\"cv-block__wrapper cv-block__wrapper-publication-url\">\n        <h4 class=\"cv-block-publication-url cv-block-text\">\n          {{p.url}}\n        </h4>\n      </div>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-publication/cv-publication.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-section__publication-research {\n  text-align: left;\n  font-family: \"Raleway\", sans-serif; }\n  .cv-section__publication-research .cv-block__wrapper {\n    font-family: \"Raleway\", sans-serif;\n    color: #333333; }\n  .cv-section__publication-research .cv-block-text {\n    font-weight: 300; }\n  .cv-section__publication-research .cv-block-publication-type {\n    color: #333333;\n    font-weight: 400; }\n  .cv-section__publication-research .cv-block-publication-url {\n    color: #333333;\n    font-weight: 400; }\n  .cv-section__publication-research .cv-block-publication-type,\n  .cv-section__publication-research .cv-block-publication-title,\n  .cv-section__publication-research .cv-block-publication-description {\n    margin-bottom: 0; }\n  .cv-section__publication-research .cv-block-publication-title,\n  .cv-section__publication-research .cv-block-publication-description,\n  .cv-section__publication-research .cv-block-publication-url {\n    margin-top: 0; }\n  .cv-section__publication-research .cv-block-publication-title,\n  .cv-section__publication-research .cv-block-publication-url {\n    margin-top: .2rem; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-publication/cv-publication.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvPublicationComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvPublicationComponent = (function () {
+    function CvPublicationComponent() {
+    }
+    CvPublicationComponent.prototype.ngOnInit = function () {
+    };
+    return CvPublicationComponent;
+}());
+CvPublicationComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-cv-publication',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv-publication/cv-publication.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv-publication/cv-publication.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvPublicationComponent);
+
+//# sourceMappingURL=cv-publication.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-skill/cv-skill.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"cv-section__block-inner cv-section__skills\">\n  <h3 class=\"cv-section__block-title\">Skills</h3>\n    <div class=\"list-item\">\n      <div class=\"cv-block__wrapper cv-block__wrapper-skills-main\">\n        <h4 class=\"cv-block-skills-main cv-block-text\">\n          {{skill.main_skills}}\n        </h4>\n      </div>\n      <div class=\"cv-block__wrapper cv-block__wrapper-skills-related\">\n        <h3 class=\"cv-block-skills-related-title cv-block-text\">Related Development Tools</h3>\n        <h4 class=\"cv-block-skills-related cv-block-text\">\n          {{skill.related_tools}}\n        </h4>\n      </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-skill/cv-skill.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-section__skills {\n  text-align: right;\n  font-family: \"Raleway\", sans-serif; }\n  @media screen and (max-width: 767px) {\n    .cv-section__skills {\n      text-align: left; } }\n  .cv-section__skills .cv-block__wrapper {\n    font-family: \"Raleway\", sans-serif;\n    color: #000000; }\n  .cv-section__skills .cv-block-text {\n    font-weight: 300;\n    line-height: 1; }\n  .cv-section__skills .cv-block-skills-main {\n    margin-bottom: 0; }\n  .cv-section__skills .cv-block-skills-related-title {\n    color: #AEAEAE;\n    font-size: 2.1rem;\n    margin-top: 0;\n    margin-bottom: 0; }\n  .cv-section__skills .cv-block-skills-related {\n    margin-top: 0; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-skill/cv-skill.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvSkillComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvSkillComponent = (function () {
+    function CvSkillComponent() {
+    }
+    CvSkillComponent.prototype.ngOnInit = function () {
+    };
+    return CvSkillComponent;
+}());
+CvSkillComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-cv-skill',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv-skill/cv-skill.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv-skill/cv-skill.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvSkillComponent);
+
+//# sourceMappingURL=cv-skill.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-training/cv-training.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"cv-section__block-inner cv-section__training\">\n<h3 class=\"cv-section__block-title\">Training</h3>\n<div class=\"list-item\">\n\t<div class=\"cv-block__wrapper cv-block__wrapper-training-name\">\n\t\t<h4 class=\"cv-block-training-name cv-block-text\">{{train.name}}</h4>\n\t</div>\n\t<div class=\"cv-block__wrapper cv-block__wrapper-training-year\">\n\t\t<h4 class=\"cv-block-training-year cv-block-text\">{{train.place_year}}</h4>\n\t</div>\n</div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-training/cv-training.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-section__training {\n  text-align: right;\n  font-family: \"Raleway\", sans-serif; }\n  @media screen and (max-width: 767px) {\n    .cv-section__training {\n      text-align: left; } }\n  .cv-section__training .cv-block__wrapper {\n    font-family: \"Raleway\", sans-serif;\n    color: #8D8D8E; }\n  .cv-section__training .cv-block-text {\n    font-weight: 300;\n    line-height: .8; }\n  .cv-section__training .cv-block-training-name {\n    color: #000000;\n    font-weight: 700; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-training/cv-training.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvTrainingComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvTrainingComponent = (function () {
+    function CvTrainingComponent() {
+    }
+    CvTrainingComponent.prototype.ngOnInit = function () {
+    };
+    return CvTrainingComponent;
+}());
+CvTrainingComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-cv-training',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv-training/cv-training.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv-training/cv-training.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvTrainingComponent);
+
+//# sourceMappingURL=cv-training.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-work/cv-work.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"cv-section__block-inner cv-section__work-experience\">\n    <h3 class=\"cv-section__block-title\">Work Experience</h3>\n\t<div class=\"list-item\">\n\t    <div class=\"cv-block__wrapper cv-block__wrapper-company\">\n\t      <h4 class=\"cv-block-company cv-block-text\">{{exp.position}} | {{exp.company}} <span class=\"duration\">{{exp.duration}}</span></h4>  \n\t    </div>\n\t    <!-- {{ exp.projects }} -->\n\t    <div v-for=\"(proj, index) in exp.projects\" class=\"cv-block__wrapper cv-block__wrapper-projects\">\n\t      <div v-for=\"(projitem, key) in proj\">\n\t        <div v-if=\"key=='title'\" class=\"cv-block__wrapper cv-block__wrapper-project-title\">\n\t          <h4 class=\"cv-block-project-title cv-block-text\">Project: {{projitem}}</h4>\n\t        </div> \n\t        <div v-if=\"key=='desc'\" class=\"cv-block__wrapper cv-block__wrapper-project-desc\">\n\t          <h4 class=\"cv-block-project-desc cv-block-text\">{{projitem}}</h4>\n\t        </div>\n\t        <div v-if=\"key=='url'\" v-show=\"projitem!='-'\" class=\"cv-block__wrapper cv-block__wrapper-project-url\">\n\t          <h4 class=\"cv-block-project-url cv-block-text\">{{projitem}}</h4>\n\t        </div>\n\t      </div>\n\t    </div>\n  \t</div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-work/cv-work.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-section__work-experience {\n  text-align: left; }\n  .cv-section__work-experience .cv-block__wrapper {\n    font-family: \"Raleway\", sans-serif;\n    color: #333333; }\n  .cv-section__work-experience .cv-block__wrapper-projects {\n    padding-left: .5rem;\n    font-size: 1.3rem; }\n  .cv-section__work-experience .cv-block-company {\n    font-weight: 700; }\n    .cv-section__work-experience .cv-block-company .duration {\n      font-weight: 400;\n      color: #AEAEAE; }\n  .cv-section__work-experience .cv-block-project-title,\n  .cv-section__work-experience .cv-block-project-desc,\n  .cv-section__work-experience .cv-block-project-url {\n    font-size: 1.5rem;\n    color: #898989;\n    font-weight: 300; }\n  .cv-section__work-experience .cv-block-project-title,\n  .cv-section__work-experience .cv-block-project-desc {\n    margin-top: 0;\n    margin-bottom: 0; }\n  .cv-section__work-experience .cv-block-project-url {\n    margin-top: 0; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv-work/cv-work.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvWorkComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvWorkComponent = (function () {
+    function CvWorkComponent() {
+    }
+    CvWorkComponent.prototype.ngOnInit = function () {
+    };
+    return CvWorkComponent;
+}());
+CvWorkComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-cv-work',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv-work/cv-work.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv-work/cv-work.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvWorkComponent);
+
+//# sourceMappingURL=cv-work.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/components/cv/cv.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\n  cv works!\n</h1>\n"
+module.exports = "<div id=\"app\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12 col-sm-5 col-md-5\">\n\t\t\t\t<div class=\"cv-section__block--left cv-section__block\">\n\t\t\t\t\t<app-cv-profile></app-cv-profile>\n\n\t\t\t\t\t<app-cv-detail></app-cv-detail>\n\n\t\t\t\t\t<app-cv-education></app-cv-education>\n\n\t\t\t\t\t<app-cv-skill></app-cv-skill>\n\n\t\t\t\t\t<app-cv-training></app-cv-training>\n\n\t\t\t\t\t<app-cv-publication></app-cv-publication>\n\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-12 col-sm-7 col-md-7 col-lg-7\">\n\t\t\t\t<div class=\"cv-section__block--right cv-section__block\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t<app-cv-work></app-cv-work>\n\n\t\t\t\t\t<app-cv-project></app-cv-project>\n\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
 
 /***/ }),
 
@@ -274,7 +786,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".cv {\n  margin-top: 20px;\n  margin-bottom: 20px; }\n  .cv .cv-block-text {\n    font-size: 1.6rem; }\n  .cv-section__block--left .cv-section__block-title {\n    text-align: right; }\n    @media screen and (max-width: 767px) {\n      .cv-section__block--left .cv-section__block-title {\n        text-align: left; } }\n  .cv-section__block--right .cv-section__block-title {\n    text-align: left; }\n  .cv-section__block-title {\n    font-family: \"BebasNeue\", sans-serif;\n    color: #8D8D8E;\n    border-bottom: 1px dashed #AEAEAE;\n    padding-bottom: 1rem; }\n", ""]);
 
 // exports
 
@@ -323,7 +835,7 @@ CvComponent = __decorate([
 /***/ "../../../../../src/app/components/dashboard/dashboard.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\" [class.container-hidden]=\"menuOpen\">\n\t<div class=\"row\">\n\t\t<div class=\"side-menu side-menu__offcanvas\" [class.side-menu--open]=\"menuOpen\">\n\t\t\t<ul class=\"side-menu__dashboard\">\n\t\t\t\t<li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"main-profile\">Main Profile</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"personal-detail\">Personal Detail</a>\n\t\t\t\t</li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"work\">Work Experiences</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t  \t<a routerLink=\"projects\">Projects</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"educations\">Education</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t  \t<a routerLink=\"skill\">Skill</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t  \t<a routerLink=\"training\">Training</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"publication\">Publication & Research</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t  \t<a  href=\"javascript:void(0)\" (click)=\"this.authService.logout()\">Logout</a>\n\t\t\t  </li>\n\t\t\t</ul>\n\t\t</div>\n\n\t\t<div class=\"col-md-12 main-content\" [class.main-content--resize]=\"menuOpen\">\n\t\t\t <span class=\"open-menu\t\" (click)=\"menuOpen = !menuOpen;\">&#9776;</span>\n\t\t\t<router-outlet></router-outlet>\n\t\t</div>\t\n\t</div>\n</div>\n"
+module.exports = "<div class=\"container-fluid\" [class.container-hidden]=\"menuOpen\">\n\t<div class=\"row\">\n\t\t<div class=\"side-menu side-menu__offcanvas\" [class.side-menu--open]=\"menuOpen\">\n\t\t\t<ul class=\"side-menu__dashboard\">\n\t\t\t\t<li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"main-profile\">Main Profile</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"personal-detail\">Personal Detail</a>\n\t\t\t\t</li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"work\">Work Experiences</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t  \t<a routerLink=\"projects\">Project</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"educations\">Education</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t  \t<a routerLink=\"skill\">Skill</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t  \t<a routerLink=\"training\">Training</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t\t\t<a routerLink=\"publication\">Publication & Research</a>\n\t\t\t  </li>\n\t\t\t  <li class=\"side-menu__item\">\n\t\t\t  \t<a  href=\"javascript:void(0)\" (click)=\"this.authService.logout()\">Logout</a>\n\t\t\t  </li>\n\t\t\t</ul>\n\t\t</div>\n\n\t\t<div class=\"col-md-12 main-content\" [class.main-content--resize]=\"menuOpen\">\n\t\t\t<span class=\"open-menu\t\" (click)=\"menuOpen = !menuOpen;\">\n\t\t\t<i class=\"material-icons\">menu</i>\n\t\t\t</span>\n\n\t\t\t<router-outlet></router-outlet>\n\t\t</div>\t\n\t</div>\n</div>\n"
 
 /***/ }),
 
@@ -396,7 +908,7 @@ var _a;
 /***/ "../../../../../src/app/components/dashboard/educations/educations.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<h1 class=\"display-4 dashboard-title\">Educations</h1>\n<hr>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"education-school\">School</label>\n    <input type=\"text\" [(ngModel)]=\"education.school\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"education-school\" placeholder=\"Example: SMA Negeri 19 Bandung\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"education-period\">Education Period</label>\n    <input type=\"text\" [(ngModel)]=\"education.period\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"education-period\" placeholder=\"Example: January 2016 - February 2017\">\n  </div>\n  \n  <div class=\"form-group\">\n    <label for=\"education-description\">Education Description</label>\n    <textarea [(ngModel)]=\"education.description\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-description\" rows=\"3\"></textarea>\n  </div>\n  <div class=\"form-group\">\n  \t<button class=\"btn btn-default\" type=\"submit\" (click)=\"createEducation()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n\n<hr>\n\n<table class=\"table\">\n  <thead class=\"thead-dark\">\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">School</th>\n      <th scope=\"col\">Period</th>\n      <th scope=\"col\">Description</th>\n      <th scope=\"col\">Action</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let e of educations | async\">\n      <th scope=\"row\"></th>\n      <td>{{e.school}}</td>\n      <td>{{e.period}}</td>\n      <td>{{e.description}}</td>\n      <td>\n        \n      </td>\n    </tr>\n  </tbody>\n</table>"
+module.exports = "\n<h1 class=\"display-4 dashboard-title\">Education</h1>\n<hr>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"education-school\">School</label>\n    <input type=\"text\" [(ngModel)]=\"education.school\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"education-school\" placeholder=\"Example: SMA Negeri 19 Bandung\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"education-period\">Education Period</label>\n    <input type=\"text\" [(ngModel)]=\"education.period\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"education-period\" placeholder=\"Example: January 2016 - February 2017\">\n  </div>\n  \n  <div class=\"form-group\">\n    <label for=\"education-description\">Education Description</label>\n    <textarea [(ngModel)]=\"education.description\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-description\" rows=\"3\"></textarea>\n  </div>\n  <div class=\"form-group\">\n  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"createEducation()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n\n<hr>\n\n<table class=\"table\">\n  <thead class=\"thead-dark\">\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">School</th>\n      <th scope=\"col\">Period</th>\n      <th scope=\"col\">Description</th>\n      <th scope=\"col\">Action</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let e of educations | async\">\n      <th scope=\"row\"></th>\n      <td>{{e.school}}</td>\n      <td>{{e.period}}</td>\n      <td>{{e.description}}</td>\n      <td>\n        <button class=\"btn btn-warning\" (click)=\"deleteEducation(e.$key)\">\n          <i class=\"material-icons\">delete</i>\n        </button>\n      </td>\n    </tr>\n  </tbody>\n</table>"
 
 /***/ }),
 
@@ -489,7 +1001,7 @@ var Educations = (function () {
 /***/ "../../../../../src/app/components/dashboard/main-profile/main-profile.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"display-4 dashboard-title\">Main Profile</h1>\n<hr>\n\n<div *ngIf=\"(mainProfileList | async)?.length == 0\">\n\t<form>\n\t  <div class=\"form-group\">\n\t    <label for=\"main-profile-name\">Name</label>\n\t    <input type=\"text\" [(ngModel)]=\"mainProfile.nameProfile\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-name\" placeholder=\"Example: Willi\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t    <label for=\"main-profile-job\">Job Title</label>\n\t    <input type=\"text\" [(ngModel)]=\"mainProfile.jobTitle\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-job\" placeholder=\"Example: Front End Developer\">\n\t  </div>\n\t\t<div class=\"form-group\">\n\t  \t<label for=\"main-profile-phone\">Phone</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.phone\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-phone\" placeholder=\"Example: 0857 2233 8899\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t    <label for=\"main-profile-address\">Address</label>\n\t    <textarea [(ngModel)]=\"mainProfile.address\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-address\" rows=\"3\"></textarea>\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"main-profile-email\">Email</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.email\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"mian-profile-email\" placeholder=\"Example: willi.dev.id@gmail.com\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"main-profile-linkedin\">Linkedin</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.linkedin\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-linkedin\" placeholder=\"Example: https://www.linkedin.com/in/willidev/\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"main-profile-github\">Github</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.github\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-github\" placeholder=\"Example: https://github.com/willi-dev\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<button class=\"btn btn-default\" type=\"submit\" (click)=\"createProfile()\">\n\t  \t\tSubmit\n\t  \t</button>\n\t  </div>\n\t</form>\n</div>\n\n<div *ngIf=\"(mainProfileList | async)?.length > 0\">\n\t<div *ngFor=\"let mp of mainProfileList | async\">\n\t\t<div *ngIf=\"formEdit\">\n\t\t\t<h2 class=\"lead\">Edit Main Profile</h2>\n\t\t\t<form>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"main-profile-name\">Name</label>\n\t\t\t    <input type=\"text\" [(ngModel)]=\"mainProfile.nameProfile\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-name\" placeholder=\"Example: Willi\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"main-profile-job\">Job Title</label>\n\t\t\t    <input type=\"text\" [(ngModel)]=\"mainProfile.jobTitle\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-job\" placeholder=\"Example: Front End Developer\">\n\t\t\t  </div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t  \t<label for=\"main-profile-phone\">Phone</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.phone\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-phone\" placeholder=\"Example: 0857 2233 8899\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"main-profile-address\">Address</label>\n\t\t\t    <textarea [(ngModel)]=\"mainProfile.address\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-address\" rows=\"3\"></textarea>\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"main-profile-email\">Email</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.email\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"mian-profile-email\" placeholder=\"Example: willi.dev.id@gmail.com\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"main-profile-linkedin\">Linkedin</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.linkedin\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-linkedin\" placeholder=\"Example: https://www.linkedin.com/in/willidev/\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"main-profile-github\">Github</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.github\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-github\" placeholder=\"Example: https://github.com/willi-dev\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"updateProfile(!formEdit, mp)\">\n\t\t\t  \t\tSubmit\n\t\t\t  \t</button>\n\t\t\t  \t<button class=\"btn btn-light\" (click)=\"showFormEdit(!formEdit, mp)\">\n\t\t\t\t\t\tCancel\n\t\t\t\t\t</button>\n\t\t\t  </div>\n\t\t\t</form>\n\t\t</div>\n\n\t\t<div *ngIf=\"!formEdit\">\n\t\t\t<div class=\"row main-profile__row mt-md-5\">\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Name</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.nameProfile}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Job Title</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.jobTitle}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Phone</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.phone}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Address</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.address}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Email</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.email}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Linkedin</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.linkedin}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Github</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.github}}</h3>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"main-profile__row-edit\">\n\t\t\t\t<button class=\"btn btn-default\" (click)=\"showFormEdit(!formEdit, mp)\">\n\t\t\t\t\tEdit\n\t\t\t\t</button>\t\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+module.exports = "<h1 class=\"display-4 dashboard-title\">Main Profile</h1>\n<hr>\n\n<div *ngIf=\"(mainProfileList | async)?.length == 0\">\n\t<form>\n\t  <div class=\"form-group\">\n\t    <label for=\"main-profile-name\">Name</label>\n\t    <input type=\"text\" [(ngModel)]=\"mainProfile.nameProfile\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-name\" placeholder=\"Example: Willi\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t    <label for=\"main-profile-job\">Job Title</label>\n\t    <input type=\"text\" [(ngModel)]=\"mainProfile.jobTitle\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-job\" placeholder=\"Example: Front End Developer\">\n\t  </div>\n\t\t<div class=\"form-group\">\n\t  \t<label for=\"main-profile-phone\">Phone</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.phone\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-phone\" placeholder=\"Example: 0857 2233 8899\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t    <label for=\"main-profile-address\">Address</label>\n\t    <textarea [(ngModel)]=\"mainProfile.address\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-address\" rows=\"3\"></textarea>\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"main-profile-email\">Email</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.email\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"mian-profile-email\" placeholder=\"Example: willi.dev.id@gmail.com\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"main-profile-linkedin\">Linkedin</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.linkedin\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-linkedin\" placeholder=\"Example: https://www.linkedin.com/in/willidev/\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"main-profile-github\">Github</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.github\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-github\" placeholder=\"Example: https://github.com/willi-dev\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"createProfile()\">\n\t  \t\tSubmit\n\t  \t</button>\n\t  </div>\n\t</form>\n</div>\n\n<div *ngIf=\"(mainProfileList | async)?.length > 0\">\n\t<div *ngFor=\"let mp of mainProfileList | async\">\n\t\t<div *ngIf=\"formEdit\">\n\t\t\t<h2 class=\"lead\">Edit Main Profile</h2>\n\t\t\t<form>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"main-profile-name\">Name</label>\n\t\t\t    <input type=\"text\" [(ngModel)]=\"mainProfile.nameProfile\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-name\" placeholder=\"Example: Willi\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"main-profile-job\">Job Title</label>\n\t\t\t    <input type=\"text\" [(ngModel)]=\"mainProfile.jobTitle\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-job\" placeholder=\"Example: Front End Developer\">\n\t\t\t  </div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t  \t<label for=\"main-profile-phone\">Phone</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.phone\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-phone\" placeholder=\"Example: 0857 2233 8899\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"main-profile-address\">Address</label>\n\t\t\t    <textarea [(ngModel)]=\"mainProfile.address\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-address\" rows=\"3\"></textarea>\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"main-profile-email\">Email</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.email\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"mian-profile-email\" placeholder=\"Example: willi.dev.id@gmail.com\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"main-profile-linkedin\">Linkedin</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.linkedin\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-linkedin\" placeholder=\"Example: https://www.linkedin.com/in/willidev/\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"main-profile-github\">Github</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"mainProfile.github\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"main-profile-github\" placeholder=\"Example: https://github.com/willi-dev\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"updateProfile(mp.$key, mainProfile)\">\n\t\t\t  \t\tSubmit\n\t\t\t  \t</button>\n\t\t\t  \t<button class=\"btn btn-light\" (click)=\"showFormEdit(!formEdit, mp)\">\n\t\t\t\t\t\tCancel\n\t\t\t\t\t</button>\n\t\t\t  </div>\n\t\t\t</form>\n\t\t</div>\n\n\t\t<div *ngIf=\"!formEdit\">\n\t\t\t<div class=\"row main-profile__row mt-md-5\">\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Name</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.nameProfile}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Job Title</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.jobTitle}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Phone</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.phone}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Address</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.address}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Email</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.email}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Linkedin</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.linkedin}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 main-profile__col--left\">\n\t\t\t\t\t<h3>Github</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 main-profile__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{mp.github}}</h3>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"main-profile__row-edit\">\n\t\t\t\t<button class=\"btn btn-default\" (click)=\"showFormEdit(!formEdit, mp)\">\n\t\t\t\t\t<i class=\"material-icons\">mode_edit</i>\n\t\t\t\t</button>\t\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
 
 /***/ }),
 
@@ -590,7 +1102,7 @@ var Mainprofile = (function () {
 /***/ "../../../../../src/app/components/dashboard/personal-detail/personal-detail.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"display-4 dashboard-title\">Personal Details</h1>\n<hr>\n\n<div *ngIf=\"(personalDetails | async)?.length == 0\">\n\t<form>\n\t  <div class=\"form-group\">\n\t    <label for=\"personal-detail-place\">Place of Birth</label>\n\t    <input type=\"text\" [(ngModel)]=\"personalDetail.placeBirth\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-place\" placeholder=\"Example: Padang\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t    <label for=\"personal-detail-date\">Date of Birth</label>\n\t    <input type=\"text\" [(ngModel)]=\"personalDetail.dateOfBirth\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-date\" placeholder=\"Example: 05 April 1989\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"personal-detail-gender\">Gender</label>\n\t  \t<select class=\"form-control\" id=\"personal-detail-gender\" [(ngModel)]=\"personalDetail.gender\" [ngModelOptions]=\"{standalone: true}\">\n\t\t\t  <option value=\"male\">Male</option>\n\t\t\t  <option value=\"female\">Female</option>\n\t\t\t</select>\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"personal-detail-language\">Language</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"personalDetail.language\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-language\" placeholder=\"Example: Bahasa, English\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"personal-detail-language\">Religion</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"personalDetail.religion\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-religion\" placeholder=\"Example: Islam\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<button class=\"btn btn-default\" type=\"submit\" (click)=\"createDetail()\">\n\t  \t\tSubmit\n\t  \t</button>\n\t  </div>\n\t</form>\n</div>\n\n<div *ngIf=\"(personalDetails | async)?.length > 0\">\n\t<div *ngFor=\"let pd of personalDetails | async\">\n\t\t<!-- form editor when edit value of personal detail -->\n\t\t<div *ngIf=\"formEdit\">\n\t\t\t<h2 class=\"lead\">Edit Personal Detail</h2>\n\t\t\t<form>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"personal-detail-place\">Place of Birth </label>\n\t\t\t    <input type=\"text\" [(ngModel)]=\"personalDetail.placeBirth\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-place\" placeholder=\"Example: Padang\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"personal-detail-date\">Date of Birth</label>\n\t\t\t    <input type=\"text\" [(ngModel)]=\"personalDetail.dateOfBirth\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-date\" placeholder=\"Example: 05 April 1989\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"personal-detail-gender\">Gender</label>\n\t\t\t  \t<select class=\"form-control\" id=\"personal-detail-gender\" [(ngModel)]=\"personalDetail.gender\" [ngModelOptions]=\"{standalone: true}\">\n\t\t\t\t\t  <option value=\"male\">Male</option>\n\t\t\t\t\t  <option value=\"female\">Female</option>\n\t\t\t\t\t</select>\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"personal-detail-language\">Language</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"personalDetail.language\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-language\" placeholder=\"Example: Bahasa, English\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"personal-detail-language\">Religion</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"personalDetail.religion\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-religion\" placeholder=\"Example: Islam\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"updateDetail(pd.$key, personalDetail)\">\n\t\t\t  \t\tSubmit\n\t\t\t  \t</button>\n\t\t\t  \t<button class=\"btn btn-light\" (click)=\"showFormEdit(!formEdit, pd)\">\n\t\t\t\t\t\tCancel\n\t\t\t\t\t</button>\n\t\t\t  </div>\n\t\t\t</form>\n\t\t</div>\n\t\t<!-- end form editor -->\n\n\t\t<div *ngIf=\"!formEdit\">\n\t\t\t<div class=\"row personal-detail__row mt-md-5\">\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--left\">\n\t\t\t\t\t<h3>Place of Birth</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{pd.placeBirth}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--left\">\n\t\t\t\t\t<h3>Date of Birth</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{pd.dateOfBirth}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--left\">\n\t\t\t\t\t<h3>Language</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{pd.language}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--left\">\n\t\t\t\t\t<h3>Religion</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{pd.religion}}</h3>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"personal-detail__row-edit\">\n\t\t\t\t<button class=\"btn btn-default\" (click)=\"showFormEdit(!formEdit, pd)\">\n\t\t\t\t\tEdit\n\t\t\t\t</button>\t\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+module.exports = "<h1 class=\"display-4 dashboard-title\">Personal Detail</h1>\n<hr>\n\n<div *ngIf=\"(personalDetails | async)?.length == 0\">\n\t<form>\n\t  <div class=\"form-group\">\n\t    <label for=\"personal-detail-place\">Place of Birth</label>\n\t    <input type=\"text\" [(ngModel)]=\"personalDetail.placeBirth\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-place\" placeholder=\"Example: Padang\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t    <label for=\"personal-detail-date\">Date of Birth</label>\n\t    <input type=\"text\" [(ngModel)]=\"personalDetail.dateOfBirth\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-date\" placeholder=\"Example: 05 April 1989\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"personal-detail-gender\">Gender</label>\n\t  \t<select class=\"form-control\" id=\"personal-detail-gender\" [(ngModel)]=\"personalDetail.gender\" [ngModelOptions]=\"{standalone: true}\">\n\t\t\t  <option value=\"male\">Male</option>\n\t\t\t  <option value=\"female\">Female</option>\n\t\t\t</select>\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"personal-detail-language\">Language</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"personalDetail.language\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-language\" placeholder=\"Example: Bahasa, English\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<label for=\"personal-detail-language\">Religion</label>\n\t  \t<input type=\"text\" [(ngModel)]=\"personalDetail.religion\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-religion\" placeholder=\"Example: Islam\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"createDetail()\">\n\t  \t\tSubmit\n\t  \t</button>\n\t  </div>\n\t</form>\n</div>\n\n<div *ngIf=\"(personalDetails | async)?.length > 0\">\n\t<div *ngFor=\"let pd of personalDetails | async\">\n\t\t<!-- form editor when edit value of personal detail -->\n\t\t<div *ngIf=\"formEdit\">\n\t\t\t<h2 class=\"lead\">Edit Personal Detail</h2>\n\t\t\t<form>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"personal-detail-place\">Place of Birth </label>\n\t\t\t    <input type=\"text\" [(ngModel)]=\"personalDetail.placeBirth\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-place\" placeholder=\"Example: Padang\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t    <label for=\"personal-detail-date\">Date of Birth</label>\n\t\t\t    <input type=\"text\" [(ngModel)]=\"personalDetail.dateOfBirth\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-date\" placeholder=\"Example: 05 April 1989\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"personal-detail-gender\">Gender</label>\n\t\t\t  \t<select class=\"form-control\" id=\"personal-detail-gender\" [(ngModel)]=\"personalDetail.gender\" [ngModelOptions]=\"{standalone: true}\">\n\t\t\t\t\t  <option value=\"male\">Male</option>\n\t\t\t\t\t  <option value=\"female\">Female</option>\n\t\t\t\t\t</select>\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"personal-detail-language\">Language</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"personalDetail.language\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-language\" placeholder=\"Example: Bahasa, English\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<label for=\"personal-detail-language\">Religion</label>\n\t\t\t  \t<input type=\"text\" [(ngModel)]=\"personalDetail.religion\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"personal-detail-religion\" placeholder=\"Example: Islam\">\n\t\t\t  </div>\n\t\t\t  <div class=\"form-group\">\n\t\t\t  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"updateDetail(pd.$key, personalDetail)\">\n\t\t\t  \t\tSubmit\n\t\t\t  \t</button>\n\t\t\t  \t<button class=\"btn btn-light\" (click)=\"showFormEdit(!formEdit, pd)\">\n\t\t\t\t\t\tCancel\n\t\t\t\t\t</button>\n\t\t\t  </div>\n\t\t\t</form>\n\t\t</div>\n\t\t<!-- end form editor -->\n\n\t\t<div *ngIf=\"!formEdit\">\n\t\t\t<div class=\"row personal-detail__row mt-md-5\">\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--left\">\n\t\t\t\t\t<h3>Place of Birth</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{pd.placeBirth}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--left\">\n\t\t\t\t\t<h3>Date of Birth</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{pd.dateOfBirth}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--left\">\n\t\t\t\t\t<h3>Language</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{pd.language}}</h3>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--left\">\n\t\t\t\t\t<h3>Religion</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-6 personal-detail__col--right\">\n\t\t\t\t\t<h3 class=\"font-weight-light\">{{pd.religion}}</h3>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"personal-detail__row-edit\">\n\t\t\t\t<button class=\"btn btn-default\" (click)=\"showFormEdit(!formEdit, pd)\">\n\t\t\t\t\t<i class=\"material-icons\">mode_edit</i>\n\t\t\t\t</button>\t\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
 
 /***/ }),
 
@@ -673,7 +1185,7 @@ var _a;
 /***/ "../../../../../src/app/components/dashboard/projects/projects.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"display-4 dashboard-title\">Projects</h1>\n<hr>\n<form>\n  <div class=\"form-group\">\n    <label for=\"project-name\">Project Name</label>\n    <input type=\"text\" [(ngModel)]=\"project.project\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"project-name\" placeholder=\"Example: Website Company Profile\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"project-company\">Company</label>\n    <input type=\"text\" [(ngModel)]=\"project.company\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"project-company\" placeholder=\"Example: Mirum Agency\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"project-period\">Project Period</label>\n    <input type=\"text\" [(ngModel)]=\"project.period\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"project-period\" placeholder=\"Example: January 2016 - February 2017\">\n  </div>\n  \n  <div class=\"form-group\">\n    <label for=\"project-description\">Project Description</label>\n    <textarea [(ngModel)]=\"project.description\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"project-description\" rows=\"3\"></textarea>\n  </div>\n  <div class=\"form-group\">\n  \t<button class=\"btn btn-default\" type=\"submit\" (click)=\"createProject()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n<hr>\n\n<div class=\"col-md-12\">\n  <div class=\"row\">\n    <div class=\"col-md-6\" *ngFor=\"let p of projects | async\">\n      <div class=\"card mb-3\" style=\"width: 100%;\">\n        <div class=\"card-body\">\n          <h4 class=\"card-title\">{{p.project}}</h4>\n          <h6 class=\"card-subtitle mb-2 text-muted\">{{p.company}}</h6>\n          <h6 class=\"card-subtitle mb-2 text-muted\">{{p.period}}</h6>\n          <p class=\"card-text\">\n            {{p.description}}\n          </p>\n          <a class=\"card-link\">Edit</a>\n          <a class=\"card-link\" (click)=\"deleteProject(p.$key)\">Delete</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<h1 class=\"display-4 dashboard-title\">Projects</h1>\n<hr>\n<form>\n  <div class=\"form-group\">\n    <label for=\"project-name\">Project Name</label>\n    <input type=\"text\" [(ngModel)]=\"project.project\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"project-name\" placeholder=\"Example: Website Company Profile\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"project-company\">Company</label>\n    <input type=\"text\" [(ngModel)]=\"project.company\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"project-company\" placeholder=\"Example: Mirum Agency\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"project-period\">Project Period</label>\n    <input type=\"text\" [(ngModel)]=\"project.period\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"project-period\" placeholder=\"Example: January 2016 - February 2017\">\n  </div>\n  \n  <div class=\"form-group\">\n    <label for=\"project-description\">Project Description</label>\n    <textarea [(ngModel)]=\"project.description\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"project-description\" rows=\"3\"></textarea>\n  </div>\n  <div class=\"form-group\">\n  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"createProject()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n<hr>\n\n<div class=\"col-md-12\">\n  <div class=\"row\">\n    <div class=\"col-md-6\" *ngFor=\"let p of projects | async\">\n      <div class=\"card mb-3\" style=\"width: 100%;\">\n        <div class=\"card-body\">\n          <h4 class=\"card-title\">{{p.project}}</h4>\n          <h6 class=\"card-subtitle mb-2 text-muted\">{{p.company}}</h6>\n          <h6 class=\"card-subtitle mb-2 text-muted\">{{p.period}}</h6>\n          <p class=\"card-text\">\n            {{p.description}}\n          </p>\n          <a class=\"card-link\">Edit</a>\n          <a class=\"card-link\" (click)=\"deleteProject(p.$key)\">Delete</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -765,7 +1277,7 @@ var Projects = (function () {
 /***/ "../../../../../src/app/components/dashboard/publication/publication.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<h1 class=\"display-4 dashboard-title\">Publications</h1>\n<hr>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"publication-name\">Publication</label>\n    <input type=\"text\" [(ngModel)]=\"publication.publication\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"publication-name\" placeholder=\"Example: Undergraduate Thesis\">\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"publication-description\">Publication Description</label>\n    <textarea [(ngModel)]=\"publication.description\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"publication-description\" rows=\"3\"></textarea>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"publication-link\">Link Publication</label>\n    <input [(ngModel)]=\"publication.link\" [ngModelOptions]=\"{standalone: true}\" type=\"text\" class=\"form-control\" id=\"publication-link\" placeholder=\"Example: http://repository.upi.edu/14288/\">\n  </div>\n  \n  <div class=\"form-group\">\n  \t<button class=\"btn btn-default\" type=\"submit\" (click)=\"createPublication()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n\n<hr>\n\n<table class=\"table\">\n  <thead class=\"thead-dark\">\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">Publication</th>\n      <th scope=\"col\">Description</th>\n      <th scope=\"col\">Link</th>\n      <th scope=\"col\">Action</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let p of publications | async\">\n      <th scope=\"row\"></th>\n      <td>{{p.publication}}</td>\n      <td>{{p.description}}</td>\n      <td>{{p.link}}</td>\n      <td>\n        \n      </td>\n    </tr>\n  </tbody>\n</table>"
+module.exports = "\n<h1 class=\"display-4 dashboard-title\">Publications</h1>\n<hr>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"publication-name\">Publication</label>\n    <input type=\"text\" [(ngModel)]=\"publication.publication\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"publication-name\" placeholder=\"Example: Undergraduate Thesis\">\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"publication-description\">Publication Description</label>\n    <textarea [(ngModel)]=\"publication.description\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"publication-description\" rows=\"3\"></textarea>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"publication-link\">Link Publication</label>\n    <input [(ngModel)]=\"publication.link\" [ngModelOptions]=\"{standalone: true}\" type=\"text\" class=\"form-control\" id=\"publication-link\" placeholder=\"Example: http://repository.upi.edu/14288/\">\n  </div>\n  \n  <div class=\"form-group\">\n  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"createPublication()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n\n<hr>\n\n<table class=\"table\">\n  <thead class=\"thead-dark\">\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">Publication</th>\n      <th scope=\"col\">Description</th>\n      <th scope=\"col\">Link</th>\n      <th scope=\"col\">Action</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let p of publications | async\">\n      <th scope=\"row\"></th>\n      <td>{{p.publication}}</td>\n      <td>{{p.description}}</td>\n      <td>{{p.link}}</td>\n      <td>\n        <button class=\"btn btn-warning\" (click)=\"deletePublication(p.$key)\"><i class=\"material-icons\">delete</i></button>\n      </td>\n    </tr>\n  </tbody>\n</table>"
 
 /***/ }),
 
@@ -853,10 +1365,25 @@ var Publication = (function () {
 
 /***/ }),
 
+/***/ "../../../../../src/app/components/dashboard/skill/relatedtools.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Relatedtools; });
+var Relatedtools = (function () {
+    function Relatedtools() {
+    }
+    return Relatedtools;
+}());
+
+//# sourceMappingURL=relatedtools.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/components/dashboard/skill/skill.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"display-4 dashboard-title\">Skill</h1>\n<hr>"
+module.exports = "<h1 class=\"display-4 dashboard-title\">Skill</h1>\n<hr>\n\n<div class=\"row\">\n\t<div class=\"col-md-6\">\n\t\t<form>\n\t\t  <div class=\"form-group\">\n\t\t    <label for=\"skill-name\">Skill</label>\n\t\t    <input type=\"text\" [(ngModel)]=\"skill.skill\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"skill-name\" placeholder=\"Example: PHP\">\n\t\t  </div>\n\t\t  <div class=\"form-group\">\n\t\t  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"createSkill()\">\n\t\t  \t\tAdd Skill\n\t\t  \t</button>\n\t\t  </div>\n\t\t</form>\n\t\t<hr>\n\t\t\n\t\t<div *ngIf=\"( skills | async )?.length > 0\" >\n\t\t\t<span *ngFor=\"let s of skills | async\" class=\"skill-badge skill-badge__primary\" >\n\t\t\t\t{{s.skill}}\n\t\t\t\t<span class=\"badge badge-light badge-delete\" (click)=\"deleteSkill(s.$key)\">\n\t\t\t\t\t<i class=\"material-icons\">close</i>\n\t\t\t\t</span>\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\n\t<div class=\"col-md-6\">\n\t\t<form>\n\t\t  <div class=\"form-group\">\n\t\t    <label for=\"skill-name\">Related Development Tools</label>\n\t\t    <input type=\"text\" [(ngModel)]=\"relatedtools.relatedtools\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"skill-name\" placeholder=\"Example: git\">\n\t\t  </div>\n\t\t  <div class=\"form-group\">\n\t\t  \t<button class=\"btn btn-success\" type=\"submit\" (click)=\"createTool()\">\n\t\t  \t\tAdd Related Development Tools\n\t\t  \t</button>\n\t\t  </div>\n\t\t</form>\n\t\t<hr>\n\n\t\t<div *ngIf=\"( relatedtoolslist | async )?.length > 0\">\n\t\t\t<span *ngFor=\"let rt of relatedtoolslist | async\" class=\"skill-badge skill-badge__related\">\n\t\t\t\t{{ rt.relatedtools }}\n\t\t\t\t<span class=\"badge badge-light badge-delete\" (click)=\"deleteTool(rt.$key)\">\n\t\t\t\t\t<i class=\"material-icons\">close</i>\n\t\t\t\t</span>\t\n\t\t\t</span>\n\t\t</div>\n\t\t\n\t</div>\n</div>"
 
 /***/ }),
 
@@ -868,7 +1395,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".skill-badge {\n  padding: 5px 10px;\n  border-radius: 5px;\n  color: #ffffff;\n  margin: 5px;\n  display: inline-block; }\n  .skill-badge .badge-delete {\n    cursor: pointer; }\n  .skill-badge i {\n    font-size: 10px; }\n  .skill-badge__primary {\n    background-color: #007bff; }\n  .skill-badge__related {\n    background-color: #28a745; }\n", ""]);
 
 // exports
 
@@ -884,6 +1411,9 @@ module.exports = module.exports.toString();
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SkillComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__skill__ = __webpack_require__("../../../../../src/app/components/dashboard/skill/skill.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__relatedtools__ = __webpack_require__("../../../../../src/app/components/dashboard/skill/relatedtools.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_skill_service__ = __webpack_require__("../../../../../src/app/providers/skill.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -894,10 +1424,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
+
 var SkillComponent = (function () {
-    function SkillComponent() {
+    // relatedTools
+    function SkillComponent(skillService) {
+        this.skillService = skillService;
+        this.skill = new __WEBPACK_IMPORTED_MODULE_1__skill__["a" /* Skill */]();
+        this.relatedtools = new __WEBPACK_IMPORTED_MODULE_2__relatedtools__["a" /* Relatedtools */]();
     }
     SkillComponent.prototype.ngOnInit = function () {
+        this.skills = this.skillService.getListSkill({ orderByKey: true });
+        this.relatedtoolslist = this.skillService.getListRelatedTool({ orderByKey: true });
+    };
+    SkillComponent.prototype.createSkill = function () {
+        this.skillService.createSkill(this.skill);
+        this.skill = new __WEBPACK_IMPORTED_MODULE_1__skill__["a" /* Skill */]();
+    };
+    SkillComponent.prototype.deleteSkill = function (key) {
+        this.skillService.deleteSkill(key);
+    };
+    SkillComponent.prototype.createTool = function () {
+        this.skillService.createTool(this.relatedtools);
+        this.relatedtools = new __WEBPACK_IMPORTED_MODULE_2__relatedtools__["a" /* Relatedtools */]();
+    };
+    SkillComponent.prototype.deleteTool = function (key) {
+        this.skillService.deleteTool(key);
     };
     return SkillComponent;
 }());
@@ -907,17 +1460,33 @@ SkillComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/components/dashboard/skill/skill.component.html"),
         styles: [__webpack_require__("../../../../../src/app/components/dashboard/skill/skill.component.scss")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__providers_skill_service__["a" /* SkillService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_skill_service__["a" /* SkillService */]) === "function" && _a || Object])
 ], SkillComponent);
 
+var _a;
 //# sourceMappingURL=skill.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/dashboard/skill/skill.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Skill; });
+var Skill = (function () {
+    function Skill() {
+    }
+    return Skill;
+}());
+
+//# sourceMappingURL=skill.js.map
 
 /***/ }),
 
 /***/ "../../../../../src/app/components/dashboard/training/training.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"display-4 dashboard-title\">Training</h1>\n<hr>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"training-name\">Training Name</label>\n    <input type=\"text\" [(ngModel)]=\"training.name\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"training-name\" placeholder=\"Example: Pelatihan dasar action script 2.0\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"training-place\">Training Place</label>\n    <input type=\"text\" [(ngModel)]=\"training.place\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"training-place\" placeholder=\"Example: Ilmu Komputer UPI Bandung\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"training-year\">Year</label>\n    <input type=\"text\" [(ngModel)]=\"training.year\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"training-year\" placeholder=\"Example: 2012\">\n  </div>\n  <div class=\"form-group\">\n  \t<button class=\"btn btn-default\" type=\"submit\" (click)=\"createTraining()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n\n<hr>\n\n\n<table class=\"table\" *ngIf=\"(trainings | async)?.length > 0 \">\n  <thead class=\"thead-dark\">\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">Training</th>\n      <th scope=\"col\">Organizers / Place</th>\n      <th scope=\"col\">Year</th>\n      <th scope=\"col\">Action</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let t of trainings | async\">\n      <th scope=\"row\"></th>\n      <td>{{t.name}}</td>\n      <td>{{t.place}}</td>\n      <td>{{t.year}}</td>\n      <td>\n        \n      </td>\n    </tr>\n  </tbody>\n</table>"
+module.exports = "<h1 class=\"display-4 dashboard-title\">Training</h1>\n<hr>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"training-name\">Training Name</label>\n    <input type=\"text\" [(ngModel)]=\"training.name\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"training-name\" placeholder=\"Example: Pelatihan dasar action script 2.0\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"training-place\">Training Place</label>\n    <input type=\"text\" [(ngModel)]=\"training.place\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"training-place\" placeholder=\"Example: Ilmu Komputer UPI Bandung\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"training-year\">Year</label>\n    <input type=\"text\" [(ngModel)]=\"training.year\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"training-year\" placeholder=\"Example: 2012\">\n  </div>\n  <div class=\"form-group\">\n  \t<button class=\"btn btn-primary\" type=\"submit\" (click)=\"createTraining()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n\n<hr>\n\n\n<table class=\"table\" *ngIf=\"(trainings | async)?.length > 0 \">\n  <thead class=\"thead-dark\">\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">Training</th>\n      <th scope=\"col\">Organizers / Place</th>\n      <th scope=\"col\">Year</th>\n      <th scope=\"col\">Action</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let t of trainings | async\">\n      <th scope=\"row\"></th>\n      <td>{{t.name}}</td>\n      <td>{{t.place}}</td>\n      <td>{{t.year}}</td>\n      <td>\n        <button class=\"btn btn-warning\" (click)=\"deleteTraining(t.$key)\"><i class=\"material-icons\">delete</i></button>\n      </td>\n    </tr>\n  </tbody>\n</table>"
 
 /***/ }),
 
@@ -1008,7 +1577,7 @@ var Training = (function () {
 /***/ "../../../../../src/app/components/dashboard/work/work.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"display-4 dashboard-title\">Work Experiences</h1>\n<hr>\n<form>\n  <div class=\"form-group\">\n    <label for=\"work-position\">Position</label>\n    <input type=\"text\" [(ngModel)]=\"work.position\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-position\" placeholder=\"Example: Web Developer\" >\n  </div>\n  <div class=\"form-group\">\n    <label for=\"work-company\">Company</label>\n    <input type=\"text\" [(ngModel)]=\"work.company\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-company\" placeholder=\"Example: Mirum Agency\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"work-period\">Period</label>\n    <input type=\"text\" [(ngModel)]=\"work.period\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-period\" placeholder=\"Example: January 2016 - February 2017\">\n  </div>\n  \n  <div class=\"form-group\">\n    <label for=\"work-description\">Work Description</label>\n    <textarea  [(ngModel)]=\"work.description\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-description\" rows=\"3\"></textarea>\n  </div>\n  <div class=\"form-group\">\n  \t<button class=\"btn btn-default\" type=\"submit\" (click)=\"createWork()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n<div></div>\n<hr>\n\n<div class=\"col-md-12\">\n  <div class=\"row\">\n    <div class=\"col-md-6\" *ngFor=\"let w of works | async\"> \n      <div class=\"card mb-3\" style=\"width: 100%;\">\n        <div class=\"card-body\">\n          <h4 class=\"card-title\">{{w.position}}</h4>\n          <h6 class=\"card-subtitle mb-2 text-muted\">{{w.company}}</h6>\n          <h6 class=\"card-subtitle mb-2 text-muted\">{{w.period}}</h6>\n          <p class=\"card-text\">\n            {{w.description}}\n          </p>\n          <a class=\"card-link\">Edit</a>\n          <a class=\"card-link\" (click)=\"deleteWork(w.$key)\">Delete</a>\n        </div>\n      </div>\n      \n     <!-- \n      \n      \n      <button class=\"btn btn-default\" >\n          \n        </button> -->\n  </div>\n \n  </div>\n</div>"
+module.exports = "<h1 class=\"display-4 dashboard-title\">Work Experiences</h1>\n<hr>\n<form>\n  <div class=\"form-group\">\n    <label for=\"work-position\">Position</label>\n    <input type=\"text\" [(ngModel)]=\"work.position\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-position\" placeholder=\"Example: Web Developer\" >\n  </div>\n  <div class=\"form-group\">\n    <label for=\"work-company\">Company</label>\n    <input type=\"text\" [(ngModel)]=\"work.company\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-company\" placeholder=\"Example: Mirum Agency\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"work-period\">Period</label>\n    <input type=\"text\" [(ngModel)]=\"work.period\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-period\" placeholder=\"Example: January 2016 - February 2017\">\n  </div>\n  \n  <div class=\"form-group\">\n    <label for=\"work-description\">Work Description</label>\n    <textarea  [(ngModel)]=\"work.description\" [ngModelOptions]=\"{standalone: true}\" class=\"form-control\" id=\"work-description\" rows=\"3\"></textarea>\n  </div>\n  <div class=\"form-group\">\n  \t<button class=\"btn btn-default\" type=\"submit\" (click)=\"createWork()\">\n  \t\tSubmit\n  \t</button>\n  </div>\n</form>\n<div></div>\n<hr>\n\n<div class=\"col-md-12\">\n  <div class=\"row\">\n    <div class=\"col-md-6\" *ngFor=\"let w of works | async\"> \n      <div class=\"card mb-3\" style=\"width: 100%;\">\n        <div class=\"card-body\">\n          <h4 class=\"card-title\">{{w.position}}</h4>\n          <h6 class=\"card-subtitle mb-2 text-muted\">{{w.company}}</h6>\n          <h6 class=\"card-subtitle mb-2 text-muted\">{{w.period}}</h6>\n          <p class=\"card-text\">\n            {{w.description}}\n          </p>\n          <a class=\"card-link\"><i class=\"material-icons\">mode_edit</i></a>\n          <a class=\"card-link\" (click)=\"deleteWork(w.$key)\"><i class=\"material-icons\">delete</i></a>\n        </div>\n      </div>\n      \n     <!-- \n      \n      \n      <button class=\"btn btn-default\" >\n          \n        </button> -->\n  </div>\n \n  </div>\n</div>"
 
 /***/ }),
 
@@ -1096,67 +1665,6 @@ var Work = (function () {
 }());
 
 //# sourceMappingURL=work.js.map
-
-/***/ }),
-
-/***/ "../../../../../src/app/components/header/header.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  header works!\n</p>\n"
-
-/***/ }),
-
-/***/ "../../../../../src/app/components/header/header.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ "../../../../../src/app/components/header/header.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var HeaderComponent = (function () {
-    function HeaderComponent() {
-    }
-    HeaderComponent.prototype.ngOnInit = function () {
-    };
-    return HeaderComponent;
-}());
-HeaderComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
-        selector: 'app-header',
-        template: __webpack_require__("../../../../../src/app/components/header/header.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/components/header/header.component.scss")]
-    }),
-    __metadata("design:paramtypes", [])
-], HeaderComponent);
-
-//# sourceMappingURL=header.component.js.map
 
 /***/ }),
 
@@ -1857,6 +2365,103 @@ PublicationService = __decorate([
 
 var _a, _b;
 //# sourceMappingURL=publication.service.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/providers/skill.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SkillService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angularfire2_database_deprecated__ = __webpack_require__("../../../../angularfire2/database-deprecated/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__message_service__ = __webpack_require__("../../../../../src/app/providers/message.service.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var SkillService = (function () {
+    function SkillService(db, m) {
+        this.db = db;
+        this.m = m;
+        this.basePath = '/skill';
+        this.basePathRelated = '/related';
+        this.skill = null;
+        this.skills = null;
+        this.relatedTool = null;
+        this.relatedTools = null;
+        this.skills = this.db.list(this.basePath);
+        this.relatedTools = this.db.list(this.basePathRelated);
+    }
+    SkillService.prototype.getSkill = function (key) {
+        var skillPath = this.basePath + "/" + key;
+        this.skill = this.db.object(skillPath);
+        return this.skill;
+    };
+    SkillService.prototype.getListSkill = function (query) {
+        this.skills = this.db.list(this.basePath, {
+            query: query
+        });
+        return this.skills;
+    };
+    SkillService.prototype.createSkill = function (skill) {
+        var _this = this;
+        this.skills.push(skill)
+            .then(function (error) { return _this.m.handleError(error); });
+    };
+    SkillService.prototype.updateSkill = function (key, value) {
+        var _this = this;
+        this.skills.update(key, value)
+            .catch(function (error) { return _this.m.handleError(error); });
+    };
+    SkillService.prototype.deleteSkill = function (key) {
+        var _this = this;
+        this.skills.remove(key)
+            .catch(function (error) { return _this.m.handleError(error); });
+    };
+    SkillService.prototype.deleteAllSkill = function () {
+        var _this = this;
+        this.skills.remove()
+            .catch(function (error) { return _this.m.handleError(error); });
+    };
+    SkillService.prototype.getRelatedTool = function (key) {
+        var toolPath = this.basePath + "/" + key;
+        this.relatedTool = this.db.object(toolPath);
+        return this.relatedTool;
+    };
+    SkillService.prototype.getListRelatedTool = function (query) {
+        this.relatedTools = this.db.list(this.basePathRelated, {
+            query: query
+        });
+        return this.relatedTools;
+    };
+    SkillService.prototype.createTool = function (relatedTools) {
+        var _this = this;
+        this.relatedTools.push(relatedTools)
+            .then(function (error) { return _this.m.handleError(error); });
+    };
+    SkillService.prototype.deleteTool = function (key) {
+        var _this = this;
+        this.relatedTools.remove(key)
+            .catch(function (error) { return _this.m.handleError(error); });
+    };
+    return SkillService;
+}());
+SkillService = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_angularfire2_database_deprecated__["a" /* AngularFireDatabase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_angularfire2_database_deprecated__["a" /* AngularFireDatabase */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__message_service__["a" /* MessageService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__message_service__["a" /* MessageService */]) === "function" && _b || Object])
+], SkillService);
+
+var _a, _b;
+//# sourceMappingURL=skill.service.js.map
 
 /***/ }),
 
